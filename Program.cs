@@ -92,14 +92,9 @@ namespace todo
                                 {
                                     selected.Notes = notes;
                                 }
-
                             }
-
                         }
-
                         Console.ReadLine();
-
-
                     }
                 }
                 else if (string.Equals(entry.ToLower().Trim(), "o"))//clean
@@ -256,9 +251,5 @@ namespace todo
             this.isComplete = true;
             Program.taskList.Remove(this);
         }
-
-
     }
-
-    
 }
